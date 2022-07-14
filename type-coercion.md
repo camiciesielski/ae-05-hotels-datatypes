@@ -1,6 +1,6 @@
 Type coercion
 ================
-Naomi Ekas
+Cami Ciesielski
 
 -   `c(1, 1L, "C")`
 
@@ -29,8 +29,10 @@ c(1, 1L, "C")
     ## [1] "C"
 
 ``` r
-#typeof(c(1, 1L, "C"))
+typeof(c(1, 1L, "C"))
 ```
+
+    ## [1] "character"
 
 -   `c(1L / 0, "A")`
 

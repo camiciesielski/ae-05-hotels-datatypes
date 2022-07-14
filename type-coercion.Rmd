@@ -1,13 +1,13 @@
 ---
 title: "Type coercion"
-author: "Naomi Ekas"
+author: "Cami Ciesielski"
 output: github_document
 ---
 
 -   `c(1, 1L, "C")`
-
 ```{r}
 c(1, 1L, "C")
+
 ```
 
 ```{r}
@@ -17,7 +17,7 @@ c(1, 1L, "C")
 ```
 
 ```{r}
-#typeof(c(1, 1L, "C"))
+typeof(c(1, 1L, "C"))
 ```
 
 -   `c(1L / 0, "A")`
